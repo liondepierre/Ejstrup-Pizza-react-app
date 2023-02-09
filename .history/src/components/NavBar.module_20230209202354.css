@@ -1,0 +1,11 @@
+.navbar {
+    margin: 50px;
+}
+
+.navItem {
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: line-through;
+    list-style: none;
+}

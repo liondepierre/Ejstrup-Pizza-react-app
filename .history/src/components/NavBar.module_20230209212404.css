@@ -1,0 +1,30 @@
+
+.navbar {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.navItem {
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.navLink {
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logoTitle {
+   
+    text-decoration: none;
+}
