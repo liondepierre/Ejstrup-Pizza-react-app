@@ -1,0 +1,16 @@
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    background-color: rgba(235, 235, 235, 0.952);
+}
+
+.title {
+    margin: 0px;
+
+}
+
+.logo {
+    width: 100px;
+    height: 85px;
+}

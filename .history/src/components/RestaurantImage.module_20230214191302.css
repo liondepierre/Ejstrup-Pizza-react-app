@@ -1,0 +1,31 @@
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.image {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    animation: slide-in 1s ease-out;
+    position: absolute;
+}
+
+@keyframes slide-in {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }

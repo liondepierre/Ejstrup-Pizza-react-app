@@ -1,0 +1,10 @@
+.imageContainer {
+
+}
+
+.image {
+    height: 600px;
+    width: 800px;
+    justify-content: start;
+    border-radius: 5px;
+}

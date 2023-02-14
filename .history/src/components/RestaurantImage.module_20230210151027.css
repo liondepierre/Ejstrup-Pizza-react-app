@@ -1,0 +1,9 @@
+.imageContainer {
+
+}
+
+.image {
+    height: 700px;
+    width: 1200px;
+    justify-content: start;
+}

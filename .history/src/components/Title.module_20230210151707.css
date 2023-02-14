@@ -1,0 +1,16 @@
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+.title {
+    margin: 0px;
+    color: #9B1B30;
+    font-size: x-large;
+}
+
+.logo {
+    width: 100px;
+    height: 85px;
+}

@@ -1,0 +1,15 @@
+.imageContainer {
+    display: flex;
+}
+
+.image {
+    height: 700px;
+    width: 900px;
+    justify-content: start;
+    border-radius: 5px;
+}
+
+
+.eliteSmileyImage {
+    justify-content: end;
+}

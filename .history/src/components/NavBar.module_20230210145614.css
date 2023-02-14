@@ -1,0 +1,41 @@
+.navbarClass {
+    margin: 5px;
+    background-color: rgba(235, 235, 235, 0.952);
+}
+
+.navbar {
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.navItem {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    font-size: 35px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.navItem:hover::after {
+    width: 100%;
+}
+
+.navItem::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s;
+
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+}
