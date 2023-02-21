@@ -1,0 +1,20 @@
+.squares {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.leftSquare {
+    border: black 5px solid;
+    height: 200px;
+}
+
+.middletSquare {
+
+}
+
+.rightSquare {
+
+}
