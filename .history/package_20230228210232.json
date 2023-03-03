@@ -1,0 +1,20 @@
+{
+  "name": "ejstrup-pizza",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "server": "nodemon build/server/index.js",
+    "dev": "concurrently \"npm start\" \"npm run server\""
+  },
+  "proxy": "http://localhost:3001"
+}
