@@ -18,8 +18,8 @@ export default function MenuCard(props: IMenuCardProps) {
         <div>
             <NavBar />
             {drinks.map((drink) => (
-                <div style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", gap: "1%"}} key={drink.id}>
-                    <h1>{drink.price} kr.</h1>
+                <div style={{display: "flex", textAlign: "center" }} key={drink.id}>
+                    <h1>{drink.price}</h1>
                     <h2>{drink.brands}</h2>
                     <h3>{drink.size} oz</h3>
                 </div>

@@ -2,7 +2,7 @@ import express, { Request, Response } from 'express';
 import mysql from 'mysql';
 import cors from 'cors';
 
-//Database
+
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
@@ -11,15 +11,12 @@ const connection = mysql.createConnection({
 });
 
 
-//Server
 const app = express();
-
 app.use(cors({
-  origin: "http://localhost:3000"
+  origin,
 }))
 
 
-//Routes
 app.get('/drinks', (req: Request, res: Response) => {
   const sql = 'SELECT * FROM drinks';
   connection.query(sql, (error, results) => {

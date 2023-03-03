@@ -1,11 +1,17 @@
 import React from 'react';
-import IDrink from 'src/models/IDrink';
 import NavBar from '../components/NavBar';
 export interface IMenuCardProps {
 }
 
+interface Drink {
+    id: number;
+    name: string;
+    brand: string;
+    size: number;
+}
+
 export default function MenuCard(props: IMenuCardProps) {
-    const [drinks, setDrinks] = React.useState<IDrink[]>([]);
+    const [drinks, setDrinks] = React.useState<Drink[]>([]);
 
     React.useEffect(() => {
         fetch('http://localhost:5000/drinks')
@@ -18,9 +24,9 @@ export default function MenuCard(props: IMenuCardProps) {
         <div>
             <NavBar />
             {drinks.map((drink) => (
-                <div style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", gap: "1%"}} key={drink.id}>
-                    <h1>{drink.price} kr.</h1>
-                    <h2>{drink.brands}</h2>
+                <div key={drink.id}>
+                    <h1>{drink.name}</h1>
+                    <h2>{drink.brand}</h2>
                     <h3>{drink.size} oz</h3>
                 </div>
             ))}
