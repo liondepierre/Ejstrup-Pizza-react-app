@@ -1,0 +1,23 @@
+.rightArrow {
+    width: 2%;
+}
+
+.leftArrow {
+    width: 2%;
+}
+.rightArrow:hover {
+    transform: scale(1.2);
+}
+
+.leftArrow:hover {
+    transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

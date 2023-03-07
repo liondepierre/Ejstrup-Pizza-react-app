@@ -1,0 +1,17 @@
+.rightArrow {
+    width: 2%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.leftArrow {
+    width: 2%;
+    transition: transform 0.2s ease-in-out;
+}
+.rightArrow:hover {
+    transform: scale(1.2);
+}
+
+.leftArrow:hover {
+    transform: scale(1.2);
+}
+
